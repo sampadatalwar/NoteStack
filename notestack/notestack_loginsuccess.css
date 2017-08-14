@@ -1,0 +1,44 @@
+ul.topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {background-color: #111;}
+
+ul.topnav li a.active {background-color: #4CAF50;}
+
+ul.topnav li.right {float: right;}
+
+@media screen and (max-width: 600px){
+    ul.topnav li.right, 
+    ul.topnav li {float: none;}
+}
+
+body {
+    background-image: url("images/shr.jpg");
+    background-repeat: no-repeat;
+	
+	
+}
+
+.foo{
+	background-color: rgba(255,255,255,0.80);
+	margin-left: 0%;
+	margin-right:0%;
+}
+.buttonEx{
+	background-color: #FA8072;
+    color: white;
+    padding: 28px 40px;
+    margin: 24px 0;
+    border: none;
+    cursor: pointer;
+    border-radius: 100%;
+}
+.buttonEx:hover{
+	color: white;
+	background: #008080;
+}
